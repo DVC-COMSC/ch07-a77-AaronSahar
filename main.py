@@ -10,7 +10,7 @@ if len(num1) <= len(num2):
     for j in range (len(num2) - len(num1)):
         num3.append(num2[i])
         i+=1
-elif len(num1) > len(num2):
+else:
     for j in range(len(num2)):
         num3.append(num1[i])
         num3.append(num2[i])
